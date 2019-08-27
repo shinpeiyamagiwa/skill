@@ -1,6 +1,6 @@
 <template>
   <v-form>
-    <v-container grid-list-xl>
+    <v-container fluid grid-list-xl>
       <v-layout wrap>
         <v-flex xs6>
           <h1>設備追加</h1>

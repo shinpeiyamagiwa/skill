@@ -1,6 +1,6 @@
 <template>
   <v-form>
-    <v-container grid-list-xl>
+    <v-container fluid grid-list-xl>
       <v-layout wrap>
         <v-flex xs5>
           <h1>計算画面</h1>

@@ -1,5 +1,5 @@
 <template>
-  <v-container>
+  <v-container fluid>
     <v-layout>
       <v-flex xs6>
         <h1>一覧画面</h1>

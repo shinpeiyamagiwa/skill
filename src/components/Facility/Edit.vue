@@ -1,6 +1,6 @@
 <template>
   <v-form>
-    <v-container grid-list-xl>
+    <v-container fluid grid-list-xl>
       <v-layout wrap>
         <v-flex xs6 class="py-0">
           <h1>設定変更</h1>
