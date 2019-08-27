@@ -8,8 +8,7 @@ import Calculate from '../components/Calculate';
 Vue.use(Router);
 
 export default new Router({
-  mode: 'history',
-  base: 'skill',
+  mode: '',
   routes: [
     {
       path: '/',
@@ -35,6 +34,10 @@ export default new Router({
       path: '/factory/create',
       name: 'FactoryCreate',
       component: FactoryCreate
-    }
+    },
+    {
+      path: '*',
+      redirect: '/'
+    },
   ]
 });
